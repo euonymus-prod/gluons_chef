@@ -1,0 +1,31 @@
+{
+  "id": "domain",
+  "development": {
+    "encrypted_data": "/nlt7QzOXVlqySqFIqWtWozkKfbpmwSuPWTnWu+fRup87VeKLSnTYow=\n",
+    "iv": "2rcOalqUM7nzOR1z\n",
+    "auth_tag": "jUZyKNMirUwGktYKR6gjEw==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  },
+  "production": {
+    "encrypted_data": "z4oxJExeAqp+eQVMPrBJw0oOPnwB6vJNZqZI1BmBH3UP0RrTVhElHrM=\n",
+    "iv": "XpNN/wJmEC1MlwiC\n",
+    "auth_tag": "W+h69P4BduIuP72jwizn3Q==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  },
+  "personal": {
+    "encrypted_data": "aLULJ19mhvwmbKFJjv/0HXQrweOUJhxKBs1AWANnXGA9st4I1zZvn4g=\n",
+    "iv": "wQF+zpKoZhpNATTs\n",
+    "auth_tag": "CAXujaAkSo4GuW+/CzEN2g==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  },
+  "virtualbox": {
+    "encrypted_data": "SDb5+xc8vNCYNJlxT7Ffs3FqUSjyrKxF2alZNHQh9bG6LyZaH8pFe4E=\n",
+    "iv": "KNTZ0DCX6ST9Q1yH\n",
+    "auth_tag": "iyFp8uTMxiLwBgfARrTtlw==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  }
+}

@@ -1,27 +1,31 @@
 {
   "id": "mysql",
   "development": {
-    "encrypted_data": "9z8DPYpZpl0+x2U/qY2wnukHaOEFcCHSlrwwZkhgEvLN93aWumTD2Ymm4R5l\nxJ+m2y75D8mzRoHbVbqb3FspptkQ15GlLK6bKsO9hMNr/sb3ogriWndzOWeX\nXGy/q8Q8iqxni17QBPPZGN/N3T3USIV4vjJdnvwah6tptaY9s5KBxRI+HWje\n3XDwMj80CnRxIt1TZ2hUe8Lbn5+RxdetHA==\n",
-    "iv": "s5uWxkw07yYcQFF1P3ivWg==\n",
-    "version": 1,
-    "cipher": "aes-256-cbc"
+    "encrypted_data": "EHcbIHrjl8Bvq/bzuaZpLyuXetVgXYP0O3iNMNoYa/W4vDvJda02cGeScS+p\nHmWFJmuO6sb8kpw7XI7GzN1z+qcEzA4pRQOHDow+LgYW2CYI/gESKV0dDQMM\n2+07fWP5fFIT01PNyT+lLn0ZqEYhcaf7atE1HgkaQyIziYIqdQi7K2skOkcW\nJYjTG5c2egRg9OF4hYdhtjkQ8d8=\n",
+    "iv": "2RJIeH9kotZb0nTR\n",
+    "auth_tag": "uWLo4t37fEGSY9JamPTu8w==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
   },
   "production": {
-    "encrypted_data": "S542xq5PVVpg2Kh8T9fvk7j2SbVjjMt0/+bIoi/IPRyN12o3mC8XvIfaH0w5\ndAwcuSeSoXQOWDpUgHQePi94ttdY+65ewMJ9ZowLnqFvBEAEiP+dYcv6gmt6\n11nYDUH30Ps3IfPJLnUuBkXe/2sOleULWmeSUNHgIF9gDTp0Jlq9lB0hsBTW\n1mp4AOt/YR15ftjVxIA2nrzTH38gysb97Q==\n",
-    "iv": "VScIqYfiXQI3pZs8Pl3MBg==\n",
-    "version": 1,
-    "cipher": "aes-256-cbc"
+    "encrypted_data": "sQYFwH11TSOkOVY4cW2HqpfK624sHxK+9JEprCOBlCUAkk//JVLxvtAJrXX0\nQrKOUS88sx4XZMN5uVlYJ0X3uIX7W3FgeOpkryFIiJ8U11nO009ISYNdXxa5\nxYj2NG5OP0E2VyfLu98uaXsnIou19K8yOuGBTcgmZSMATlzde3d5HoMkhYRS\nwVX1ux5KH/03ZEJd7M9YgtL/A+Y=\n",
+    "iv": "nJPxUHOdYmeIdR1y\n",
+    "auth_tag": "cjAZkdyuzQns8mX36awXXA==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
   },
   "personal": {
-    "encrypted_data": "aU5hHI8XXF4Bqd3EdMlCunp6pPJ2tlMx3EtrX3qDcmEW/iop3JRynpzppHQD\nkQTElveKqdE8qfDNgUSNsUDqfu3bp7QfZcCt+JEn2OAAwRmikmwI+5A7h5a9\ng2SqQ2bz6ftdb4R6hZR2ckS6oYbvAdr546FlyuWvYHvhEKe9MnXejm1bYKdk\noqEdWQMUp/qGFWfn7MwiAHuv5ZMZqEU0NA==\n",
-    "iv": "G26LN489ZYnI3SiaE5WuPA==\n",
-    "version": 1,
-    "cipher": "aes-256-cbc"
+    "encrypted_data": "5HbVHpaQrltXJdHjZNW9pi57taFyNy2cxDmCllg70Qj926wtlwP6mNFDZ21D\nhAyIq42v4La7c3n2+QbpNnixrvaZrrxqbWHWC88mJnb1UPTIOMSWO9XmiMJm\nSSQO4RD+Snc9kLR197l6B2nUmPHXyBwJywOG0zBFUHEBn/uHga3ZX5yF7cqR\nHDJSOgLGW7N3BKJYv7sG4v1IzmE=\n",
+    "iv": "hgQn3YhhDfGeRz6z\n",
+    "auth_tag": "nb8Rwk5D7FSVAd09EIdDNA==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
   },
   "virtualbox": {
-    "encrypted_data": "2nr8wI77+yTSCMZcMHIub5YafHIHSTBZdpizm7q6TQ9stjcECpBBBc9cYlMx\n032A9+PDvHO6BMHxJXykxTLXe/7X8fvdhxxktcTwmSFc89Y2SnZCQ5Sg+xQy\n+xXv4gy9vdgT2XdPaem9jqabY6aGcwAmDdNaxbs6IZhtzRjbV5fWud5h9FgG\nABGeIAEoAx7Q6Y8qhzH8v0x9pFb67tl9Eg==\n",
-    "iv": "NfXIKQjHVEkrRrNsUnOadQ==\n",
-    "version": 1,
-    "cipher": "aes-256-cbc"
+    "encrypted_data": "9ULrB3Rxi/HGH7mhDGT5Kq4PLLjSK6CZfG+k+1En1BCRdFiFeup8y+bszp98\npqrdOForpldMo/uc9Ek0/WRKUZl2cpxERANra02Ny9/9gPbFDkFKzCS25D+m\nR1u1EKFY6keZXAg+ZREUyKoxZEIAqeZuMlknqNTO4qSJaOZO+ZSLTy5UQPmY\nIwFOwHgCY0TuqCV1eZj9xgGv8VQ=\n",
+    "iv": "3W4A0Yz3Z0TvraxK\n",
+    "auth_tag": "nkokdFZKhtqR/8zkDfhnQQ==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
   }
 }
