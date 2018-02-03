@@ -1,0 +1,6 @@
+[submodule "site-cookbooks/lamp"]
+	path = site-cookbooks/lamp
+	url = git@github.com:euonymus/cookbook_lamp.git
+[submodule "site-cookbooks/cakephp"]
+	path = site-cookbooks/cakephp
+	url = git@github.com:euonymus/cookbook_cakephp.git
