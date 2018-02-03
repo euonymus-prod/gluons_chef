@@ -13,6 +13,12 @@ default[:gluons][:secretpath] = "/vagrant/src/secrets/data_bag_key"
 # look for secret in file pointed to with gluons attribute :secretpath
 data_bag_secret = Chef::EncryptedDataBagItem.load_secret("#{node[:gluons][:secretpath]}")
 
+# Set security info from data_bag
+security_creds = Chef::EncryptedDataBagItem.load("passwords", "security", data_bag_secret)
+if data_bag_secret && security_passwords = security_creds[node.chef_environment]
+  default[:gluons][:salt] = security_passwords['salt']
+end
+
 # Set domains from data_bag
 domain_creds = Chef::EncryptedDataBagItem.load("envs", "domain", data_bag_secret)
 if data_bag_secret && domain_envs = domain_creds[node.chef_environment]
