@@ -15,10 +15,10 @@ end
 
 # Change setting for text field by alter table
 execute "init_subject_search" do
-  command "mysql -S /var/run/mysql-" + node[:gluons][:app_name] + "/mysqld.sock -u" + node[:gluons][:db_user] + " -p" + node[:gluons][:db_password] + " " + node[:gluons][:db_name] + " -e'ALTER TABLE `subject_searches` MODIFY `search_words` TEXT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci` NOT NULL;'"
+  command "mysql -S /var/run/mysql-" + node[:gluons][:app_name] + "/mysqld.sock -u" + node[:gluons][:db_user] + " -p" + node[:gluons][:db_password] + " " + node[:gluons][:db_name] + " -e'ALTER TABLE `subject_searches` MODIFY `search_words` TEXT CHARACTER SET `utf8mb4` COLLATE `utf8mb4_unicode_ci` NOT NULL;'"
 end
 execute "init_ja_subject_search" do
-  command "mysql -S /var/run/mysql-" + node[:gluons][:app_name] + "/mysqld.sock -u" + node[:gluons][:db_user] + " -p" + node[:gluons][:db_password] + " " + node[:gluons][:db_name] + " -e'ALTER TABLE `ja_subject_searches` MODIFY `search_words` TEXT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci` NOT NULL;'"
+  command "mysql -S /var/run/mysql-" + node[:gluons][:app_name] + "/mysqld.sock -u" + node[:gluons][:db_user] + " -p" + node[:gluons][:db_password] + " " + node[:gluons][:db_name] + " -e'ALTER TABLE `ja_subject_searches` MODIFY `search_words` TEXT CHARACTER SET `utf8mb4` COLLATE `utf8mb4_unicode_ci` NOT NULL;'"
 end
 
 # make it myisam
